@@ -44,6 +44,25 @@ public class Hello {
 
         System.out.println(s);
 
+        // Step 1
+        double firstDouble = 20.00d;
+        //Step 2
+        double secondDouble = 80.00d;
+        // Step 3
+        double sumMulDoubles = ((firstDouble + secondDouble) * 100.00d);
+        System.out.println("SumMulDoubles = " + sumMulDoubles);
+        // Step 4
+        double remainderDouble = sumMulDoubles % 40.00d;
+        System.out.println("RemainderDouble = " + remainderDouble);
+        // Step 5
+        boolean zeroCheck = (remainderDouble == 0.00d) ? true : false;
+        // Step 6
+        System.out.println("Remaineder is zero: " + zeroCheck);
+        // Step 7
+        if (zeroCheck == false) {
+            System.out.println("Got some remainder");
+        }
+
     }
 
 }
